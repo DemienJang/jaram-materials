@@ -2590,6 +2590,222 @@ a {
   color: #b8c2b9;
 }
 
+.record-export-section {
+  margin: 30px -18px 0;
+  padding: 54px 38px 58px;
+  border-top: 6px solid var(--accent);
+  background: #f0d98c;
+}
+
+.record-export-actions {
+  margin-top: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.record-export-actions button {
+  min-height: 42px;
+  padding: 10px 15px;
+  border: 1px solid rgba(38, 55, 46, 0.24);
+  border-radius: 999px;
+  background: rgba(255, 253, 247, 0.72);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.record-export-actions .primary-tool {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: #eff2e7;
+}
+
+.record-export-status {
+  margin: 18px 0 0;
+  color: #6e5c24;
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.record-export-output {
+  margin: 28px 0 0;
+  overflow: auto;
+}
+
+.record-empty {
+  margin: 0;
+  padding: 24px;
+  border: 1px solid rgba(38, 55, 46, 0.24);
+  border-radius: 10px;
+  background: rgba(255, 253, 247, 0.72);
+  color: #6e5c24;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.record-export-output .record-card {
+  overflow: hidden;
+  border: 1px solid rgba(38, 55, 46, 0.2);
+  background: #fffdf7;
+  box-shadow: 0 14px 44px rgba(70, 69, 52, 0.1);
+}
+
+.record-export-output .record-card-hero {
+  padding: 30px 32px 28px;
+  background: var(--sage);
+}
+
+.record-export-output .record-card-hero-copy {
+  padding-top: 54px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 0.52fr);
+  gap: 28px;
+  align-items: end;
+}
+
+.record-export-output .record-card-hero h1 {
+  margin: 12px 0 0;
+  color: var(--ink);
+  font-size: clamp(26px, 4vw, 40px);
+  line-height: 1.24;
+  letter-spacing: -0.02em;
+  word-break: keep-all;
+}
+
+.record-export-output .record-card-hero-copy p:last-child {
+  margin: 0;
+  color: #536157;
+  font-size: 12px;
+  line-height: 1.75;
+}
+
+.record-export-output .record-card-section {
+  padding: 38px 32px 44px;
+  background: #dde4d1;
+}
+
+.record-export-output .record-card-checks {
+  margin-top: 28px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.record-export-output .record-card-checks section {
+  background: rgba(255, 253, 247, 0.62);
+}
+
+.record-export-output .record-card-list {
+  margin-top: 28px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.record-export-output .record-card-entry {
+  border-radius: 10px;
+}
+
+.record-export-output .record-card-answer {
+  margin-top: 16px;
+  min-height: 82px;
+  padding: 16px;
+  border: 1px dashed rgba(38, 55, 46, 0.4);
+  border-radius: 7px;
+  background-color: rgba(255, 253, 247, 0.7);
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 32px,
+    rgba(38, 55, 46, 0.11) 33px
+  );
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.85;
+  white-space: pre-wrap;
+  word-break: keep-all;
+}
+
+.record-export-output .record-card footer {
+  padding: 18px 32px 22px;
+  background: var(--ink);
+  color: #eff2e7;
+  font-size: 10px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+}
+
+/* Smartphone rhythm workbook desktop corrections */
+.workbook[data-concept="smartphone-rhythm"] .workbook-hero-copy {
+  grid-template-columns: minmax(0, 1fr) 300px;
+}
+
+.workbook[data-concept="smartphone-rhythm"] .material-hero h1 {
+  font-size: clamp(38px, 4vw, 50px);
+  line-height: 1.2;
+  word-break: keep-all;
+}
+
+.workbook[data-concept="smartphone-rhythm"] .hero-deck {
+  font-size: 15px;
+  word-break: keep-all;
+}
+
+.workbook[data-concept="smartphone-rhythm"] .content-section > .question-box,
+.workbook[data-concept="smartphone-rhythm"] .content-section > .check-grid,
+.workbook[data-concept="smartphone-rhythm"] .content-section > .scenario-list,
+.workbook[data-concept="smartphone-rhythm"] .content-section > .development-flow,
+.workbook[data-concept="smartphone-rhythm"] .content-section > .activity-list {
+  grid-column: 2;
+  min-width: 0;
+}
+
+.workbook[data-concept="smartphone-rhythm"] .scenario-list,
+.workbook[data-concept="smartphone-rhythm"] .development-flow,
+.workbook[data-concept="smartphone-rhythm"] .principle-pair {
+  margin-left: 0;
+}
+
+.workbook[data-concept="smartphone-rhythm"] .question-box {
+  margin-top: 28px;
+}
+
+.workbook[data-concept="smartphone-rhythm"] .content-section > .check-grid,
+.workbook[data-concept="smartphone-rhythm"] .content-section > .scenario-list,
+.workbook[data-concept="smartphone-rhythm"] .content-section > .development-flow,
+.workbook[data-concept="smartphone-rhythm"] .content-section > .activity-list {
+  margin-top: 34px;
+}
+
+.workbook[data-concept="smartphone-rhythm"] .check-grid section label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.workbook[data-concept="smartphone-rhythm"] .check-grid input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 2px 0 0;
+  accent-color: var(--accent);
+  flex: 0 0 auto;
+}
+
+.workbook[data-concept="smartphone-rhythm"] .development-flow {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.workbook[data-concept="smartphone-rhythm"] .development-flow strong {
+  min-height: 0;
+}
+
+.workbook[data-concept="smartphone-rhythm"] .principle-pair strong {
+  font-size: 22px;
+  line-height: 1.45;
+  word-break: keep-all;
+}
+
 /* -------------------------------------------------------------
    Responsive
 -------------------------------------------------------------- */
@@ -3046,6 +3262,24 @@ a {
     padding: 62px 24px 26px;
   }
 
+  .record-export-section {
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 46px 20px 52px;
+  }
+
+  .record-export-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .record-export-output .record-card-hero-copy,
+  .record-export-output .activity-heading,
+  .record-export-output .record-card-checks,
+  .record-export-output .record-card-list {
+    grid-template-columns: 1fr;
+  }
+
   .workbook-hero-copy {
     min-height: auto;
     padding: 74px 0 40px;
@@ -3354,6 +3588,33 @@ a {
     border-bottom: 1px solid #888 !important;
     background: repeating-linear-gradient(to bottom, transparent 0, transparent 7mm, #ccc 7.2mm) !important;
     color: #111 !important;
+  }
+
+  .record-export-section {
+    margin: 8mm 0 0 !important;
+    padding: 10mm 0 !important;
+    border-top: 2px solid #111 !important;
+    background: #fff !important;
+  }
+
+  .record-export-actions,
+  .record-export-status {
+    display: none !important;
+  }
+
+  .record-export-output {
+    min-height: 0;
+    max-height: none;
+    overflow: visible;
+    border: 0 !important;
+    background: #fff !important;
+    color: #111 !important;
+    font-size: 10pt !important;
+  }
+
+  .record-export-output .record-card {
+    border: 0 !important;
+    box-shadow: none !important;
   }
 
   .reference-section,
