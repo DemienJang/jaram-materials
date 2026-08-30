@@ -637,6 +637,9 @@ a {
   background: var(--page);
   color: var(--ink);
   font-family: var(--sans);
+  line-break: strict;
+  overflow-wrap: normal;
+  word-break: keep-all;
 }
 
 .site-tools {
