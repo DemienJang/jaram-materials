@@ -2848,6 +2848,69 @@ a {
   margin-left: 0;
 }
 
+.workbook[data-concept="anxiety-listening"] .workbook-hero-copy {
+  grid-template-columns: minmax(0, 1fr) 310px;
+}
+
+.workbook[data-concept="anxiety-listening"] .material-hero h1 {
+  font-size: clamp(38px, 4vw, 52px);
+  line-height: 1.2;
+  word-break: keep-all;
+}
+
+.workbook[data-concept="anxiety-listening"] .hero-deck {
+  font-size: 15px;
+  word-break: keep-all;
+}
+
+.workbook[data-concept="anxiety-listening"] .content-section > .question-box,
+.workbook[data-concept="anxiety-listening"] .content-section > .check-grid,
+.workbook[data-concept="anxiety-listening"] .content-section > .scenario-list,
+.workbook[data-concept="anxiety-listening"] .content-section > .development-flow,
+.workbook[data-concept="anxiety-listening"] .content-section > .principle-pair,
+.workbook[data-concept="anxiety-listening"] .content-section > .activity-list {
+  grid-column: 2;
+  min-width: 0;
+}
+
+.workbook[data-concept="anxiety-listening"] .content-section > .question-box,
+.workbook[data-concept="anxiety-listening"] .content-section > .check-grid,
+.workbook[data-concept="anxiety-listening"] .content-section > .scenario-list,
+.workbook[data-concept="anxiety-listening"] .content-section > .development-flow,
+.workbook[data-concept="anxiety-listening"] .content-section > .principle-pair,
+.workbook[data-concept="anxiety-listening"] .content-section > .activity-list {
+  margin-top: 34px;
+}
+
+.workbook[data-concept="anxiety-listening"] .scenario-list,
+.workbook[data-concept="anxiety-listening"] .development-flow,
+.workbook[data-concept="anxiety-listening"] .principle-pair {
+  margin-left: 0;
+}
+
+.workbook[data-concept="anxiety-listening"] .check-grid section label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.workbook[data-concept="anxiety-listening"] .check-grid input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 2px 0 0;
+  accent-color: var(--accent);
+  flex: 0 0 auto;
+}
+
+.workbook[data-concept="anxiety-listening"] .principle-pair strong {
+  font-size: 22px;
+  line-height: 1.45;
+  word-break: keep-all;
+}
+
 /* -------------------------------------------------------------
    Responsive
 -------------------------------------------------------------- */
@@ -2924,6 +2987,29 @@ a {
     grid-template-columns: 1fr;
     gap: 34px;
     align-items: start;
+  }
+
+  .workbook[data-concept] .workbook-hero-copy {
+    grid-template-columns: 1fr !important;
+  }
+
+  .workbook[data-concept="anxiety-listening"] .workbook-hero-copy {
+    text-align: center;
+  }
+
+  .workbook[data-concept="anxiety-listening"] .workbook-hero-copy > div {
+    display: grid;
+    justify-items: center;
+  }
+
+  .workbook[data-concept="anxiety-listening"] .material-hero h1 {
+    max-width: 12em;
+    margin-inline: auto;
+  }
+
+  .workbook[data-concept="anxiety-listening"] .hero-deck {
+    max-width: 36em;
+    margin-inline: auto;
   }
 
   .workbook[data-concept="smartphone-rhythm"] .workbook-hero-copy {
@@ -3359,6 +3445,32 @@ a {
   .workbook[data-concept="smartphone-rhythm"] .hero-deck {
     max-width: 28em;
     margin-inline: auto;
+    text-align: center;
+  }
+
+  .workbook[data-concept="anxiety-listening"] .workbook-hero-copy {
+    padding-top: 58px;
+    text-align: center;
+  }
+
+  .workbook[data-concept="anxiety-listening"] .workbook-hero-copy > div {
+    display: grid;
+    justify-items: center;
+  }
+
+  .workbook[data-concept="anxiety-listening"] .material-hero h1 {
+    max-width: 9em;
+    font-size: clamp(32px, 9.4vw, 38px);
+    line-height: 1.28;
+    letter-spacing: -0.035em;
+    word-break: keep-all;
+  }
+
+  .workbook[data-concept="anxiety-listening"] .hero-deck {
+    max-width: 30em;
+    margin-inline: auto;
+    font-size: 14px;
+    line-height: 1.9;
     text-align: center;
   }
 
