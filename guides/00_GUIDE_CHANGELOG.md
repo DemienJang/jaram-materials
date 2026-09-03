@@ -8,6 +8,32 @@
 
 ### 수정 대상
 
+- `contents/2026-08-child-aggression-adult/00_brief.md`
+- `contents/2026-08-child-aggression-adult/output/cardnews/child-aggression-adult/`
+
+### 수정 의도
+
+사용자가 직접 복사한 `아이의 공격성을 버텨주는 어른` 카드뉴스 완성 이미지를 해당 발행 블로그 콘텐츠와 연결하기 위해서다.
+
+### 수정 내용
+
+- `output/cardnews/child-aggression-adult/export/`에 있는 JPG 카드뉴스 8장을 확인했다.
+- 모든 이미지가 1080 x 1350 규격임을 확인했다.
+- `00_brief.md`의 카드뉴스 상태를 `연결된 기존 카드뉴스 없음`에서 `완성 이미지 8장 연결 완료`로 수정했다.
+- 카드뉴스 폴더에 `README.md`를 추가해 원천 글, 위치, 형식, 장수, HTML 원본 부재를 기록했다.
+
+### 관련 콘텐츠
+
+- 아이의 공격성을 버텨주는 어른
+
+### 다음 점검 사항
+
+- HTML/CSS/JS 제작 원본이 별도로 있으면 추후 같은 카드뉴스 폴더에 선별 이관할지 검토한다.
+
+---
+
+### 수정 대상
+
 - `contents/2026-08-time-horizon-trust/output/cardnews/`
 - `contents/2026-08-smartphone-life-rhythm/output/cardnews/`
 - `contents/2026-08-ai-career-first-evidence/output/cardnews/`
