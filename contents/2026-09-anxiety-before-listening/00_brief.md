@@ -16,8 +16,8 @@
 - 주요 경험/장면: 학생들이 자주 하는 말이다. 처음에는 이 말이 막연한 고민처럼 들렸다. 아직 충분히 찾아보지 않아서, 아직 경험이 부족해서, 아직 자신을 잘 몰라서 나오는 말이라고 생각했다. 틀린 말은 아닐 것이다. 실제로 많은 학생들은 자신이 무엇을 좋아하는지, 무엇을 잘하는지, 어떤 삶을 살고 싶은지 충분히 생각해본 경험이 많지 않다.
 - 참고 자료: 발행 블로그 원문
 - 대상 독자: 장재식 블로그 독자, 교육/코칭/신앙적 성찰에 관심 있는 독자
-- 현재 상태: 발행본 이관 완료
-- 다음 작업: 기존 카드뉴스 산출물과 매칭 후 최종본 여부 결정
+- 현재 상태: 발행본, 스레드 이력, 카드뉴스 이미지 연결 완료
+- 다음 작업: 필요하면 교육자료 또는 제목 이미지 자료 확인
 
 ## 발행 정보
 
@@ -35,4 +35,16 @@
 - 이관 위치: `output/cardnews/anxiety-before-listening-cardnews/`
 - 선택 이유: 두 후보 모두 12장 PNG가 있으나 `anxiety-before-listening-cardnews`가 더 나중에 수정된 일반 산출물임
 - 보류 후보: `outputs/cardnews/legacy/anxiety-listening-cardnews-app-export`
+
+## 스레드 이관 상태
+
+- 현재 상태: 발행 스레드 3편 이관 완료
+- 이관 위치: `02_threads.md`
+- 대표 게시물: https://www.threads.com/@adonaicss/post/DczeBTukzrn
+- 게시물:
+  - 2026-09-03: https://www.threads.com/@adonaicss/post/DczeBTukzrn
+  - 2026-09-03: https://www.threads.com/@adonaicss/post/DczeB61k_ic
+  - 2026-09-03: https://www.threads.com/@adonaicss/post/DczeCc4k5tR
+- 판단: 블로그 원천 콘텐츠에서 파생된 Threads 발행 이력으로 보관함
+- 확인 메모: Threads 화면에는 2026-09-03 확인 시점 기준 `1시간` 전 게시로 표시됨
 

@@ -16,8 +16,8 @@
 - 주요 경험/장면: 아이들에게 미래를 물을 때가 있다. 진로교육을 할 때는 조금 더 먼 미래를 묻기도 한다. 5년 뒤에는 무엇을 하고 싶은지, 어떤 사람이 되고 싶은지, 그것을 위해 지금 무엇을 해야 하는지.
 - 참고 자료: 발행 블로그 원문
 - 대상 독자: 장재식 블로그 독자, 교육/코칭/신앙적 성찰에 관심 있는 독자
-- 현재 상태: 발행본 이관 완료
-- 다음 작업: 기존 카드뉴스 산출물과 매칭 후 최종본 여부 결정
+- 현재 상태: 발행본, 스레드 이력, 카드뉴스 이미지 연결 완료
+- 다음 작업: 필요하면 교육자료 또는 제목 이미지 자료 확인
 
 ## 발행 정보
 
@@ -35,4 +35,15 @@
 - 이관 위치: `output/cardnews/time-horizon-trust-v2/`
 - 선택 이유: `time-horizon-trust`는 HTML/CSS/JS만 있고 PNG 내보내기가 없으며, `time-horizon-trust-v2`는 12장 PNG와 이미지 자산이 있는 완성 후보임
 - 보류 후보: `outputs/cardnews/legacy/time-horizon-trust`
+
+## 스레드 이관 상태
+
+- 현재 상태: 발행 스레드 3편 이관 완료
+- 이관 위치: `02_threads.md`
+- 대표 게시물: https://www.threads.com/@adonaicss/post/Dca-bE7HS8F
+- 게시물:
+  - 2026-08-24: https://www.threads.com/@adonaicss/post/Dca-bE7HS8F
+  - 2026-08-24: https://www.threads.com/@adonaicss/post/Dca-bE3HYsG
+  - 2026-08-24: https://www.threads.com/@adonaicss/post/Dca-bEWHQ2P
+- 판단: 블로그 원천 콘텐츠에서 파생된 Threads 발행 이력으로 보관함
 

@@ -16,8 +16,8 @@
 - 주요 경험/장면: 요즘 부모와 아이가 가장 자주 부딪히는 물건 중 하나는 스마트폰이다.
 - 참고 자료: 발행 블로그 원문
 - 대상 독자: 장재식 블로그 독자, 교육/코칭/신앙적 성찰에 관심 있는 독자
-- 현재 상태: 발행본 이관 완료
-- 다음 작업: 기존 카드뉴스 산출물과 매칭 후 최종본 여부 결정
+- 현재 상태: 발행본, 스레드 이력, 카드뉴스 이미지 연결 완료
+- 다음 작업: 필요하면 교육자료 또는 제목 이미지 자료 확인
 
 ## 발행 정보
 
@@ -35,4 +35,16 @@
 - 이관 위치: `output/cardnews/smartphone-life-rhythm-flow/`
 - 선택 이유: 두 후보 모두 14장 PNG가 있으나 `smartphone-life-rhythm-flow`가 더 나중에 수정된 흐름 보완 버전으로 판단됨
 - 보류 후보: `outputs/cardnews/legacy/smartphone-life-rhythm`
+
+## 스레드 이관 상태
+
+- 현재 상태: 발행 스레드 4편 이관 완료
+- 이관 위치: `02_threads.md`
+- 대표 게시물: https://www.threads.com/@adonaicss/post/DchYLorgOZf
+- 게시물:
+  - 2026-08-27: https://www.threads.com/@adonaicss/post/DchYLorgOZf
+  - 2026-08-27: https://www.threads.com/@adonaicss/post/DchYMl-AB89
+  - 2026-08-27: https://www.threads.com/@adonaicss/post/DchYNsXAA9A
+  - 2026-08-27: https://www.threads.com/@adonaicss/post/DchYOxIgMWN
+- 판단: 블로그 원천 콘텐츠에서 파생된 Threads 발행 이력으로 보관함
 
