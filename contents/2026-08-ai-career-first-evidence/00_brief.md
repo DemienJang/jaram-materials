@@ -31,7 +31,7 @@
 
 ## 카드뉴스 이관 상태
 
-- 이관 위치: `output/cardnews/ai-career-first-evidence/`
+- 이관 위치: `output/cardnews/`
 - 선택 이유: 발행 글 제목과 직접 대응하며 12장 PNG와 이미지 자산이 있는 완성 산출물임
 - 보류 후보: 없음
 - 전체 갤러리: `outputs/cardnews/index.html`

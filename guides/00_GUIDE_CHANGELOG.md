@@ -9,6 +9,38 @@
 ### 수정 대상
 
 - `guides/03_CARDNEWS_GUIDE.md`
+- `contents/*/output/cardnews/`
+- `outputs/cardnews/index.html`
+- `contents/*/00_brief.md`
+
+### 수정 의도
+
+콘텐츠 폴더 이름이 이미 콘텐츠 식별자 역할을 하므로, 카드뉴스 폴더 안에서 콘텐츠 이름을 한 번 더 반복하는 하위 폴더를 제거해 구조를 더 단순하게 만들기 위해서다.
+
+### 수정 내용
+
+- 각 콘텐츠의 카드뉴스 최종 이미지를 `output/cardnews/<cardnews-slug>/`에서 `output/cardnews/` 바로 아래로 이동했다.
+- 각 콘텐츠의 카드뉴스 README도 `output/cardnews/README.md`로 이동했다.
+- `outputs/cardnews/index.html`의 이미지와 README 링크를 새 경로로 갱신했다.
+- `guides/03_CARDNEWS_GUIDE.md`에 콘텐츠별 카드뉴스 폴더에는 추가 하위 폴더를 만들지 않는 원칙을 추가했다.
+
+### 관련 콘텐츠
+
+- 아이의 공격성을 버텨주는 어른
+- 마시멜로 테스트와 시간의 지평선
+- 스마트폰을 빼앗기 전에, 아이가 무엇을 잃고 있는지 봐야 한다
+- AI 시대, 진로교육은 직업 선택보다 첫 증거 만들기다
+- 불안을 없애려 하기 전에, 먼저 들어야 할 때가 있다
+
+### 다음 점검 사항
+
+- 앞으로 `output/cardnews/`, `output/images/`, `output/docs/`, `output/etc/` 아래에는 콘텐츠명을 반복하는 하위 폴더를 기본으로 만들지 않는다.
+
+---
+
+### 수정 대상
+
+- `guides/03_CARDNEWS_GUIDE.md`
 - `outputs/cardnews/index.html`
 - `outputs/cardnews/README.md`
 - `outputs/cardnews/legacy/README.md`

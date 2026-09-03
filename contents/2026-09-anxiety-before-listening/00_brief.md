@@ -32,7 +32,7 @@
 
 ## 카드뉴스 이관 상태
 
-- 이관 위치: `output/cardnews/anxiety-before-listening-cardnews/`
+- 이관 위치: `output/cardnews/`
 - 선택 이유: 두 후보 모두 12장 PNG가 있으나 `anxiety-before-listening-cardnews`가 더 나중에 수정된 일반 산출물임
 - 보류 후보: `outputs/cardnews/legacy/anxiety-listening-cardnews-app-export`
 - 전체 갤러리: `outputs/cardnews/index.html`

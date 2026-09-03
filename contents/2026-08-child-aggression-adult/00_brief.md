@@ -27,12 +27,12 @@
 
 ## 연결 가능한 기존 카드뉴스
 
-- `output/cardnews/child-aggression-adult/`
+- `output/cardnews/`
 
 ## 카드뉴스 이관 상태
 
 - 현재 상태: 완성 이미지 8장 연결 완료
-- 이관 위치: `output/cardnews/child-aggression-adult/`
+- 이관 위치: `output/cardnews/`
 - 파일 형식: JPG, 1080 x 1350
 - 판단: 사용자가 완성 아웃풋 이미지를 콘텐츠 폴더 트리에 직접 복사했으며, 발행 글과 직접 대응하는 카드뉴스 산출물로 연결함
 - 다음 작업: 필요하면 HTML 원본 또는 제작 템플릿 유무를 별도 확인

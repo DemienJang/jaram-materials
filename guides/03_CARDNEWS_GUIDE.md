@@ -32,6 +32,8 @@
 - `outputs/cardnews/legacy/`: 이전 제작 원본, HTML/CSS/JS, 보조 이미지, 발행 여부가 불확실한 후보 보관
 - `templates/cardnews/`: 재사용 가능한 제작 템플릿 보관
 
+콘텐츠 폴더의 `output/cardnews/` 아래에는 콘텐츠 이름을 반복하는 하위 폴더를 만들지 않는다. `card-01.png`, `card-02.png`, `README.md`처럼 바로 보이게 둔다.
+
 콘텐츠 폴더에 HTML/CSS/JS 제작 원본과 보조 이미지를 반복 복사하지 않는다. 카드 장수는 콘텐츠마다 달라도 최종 이미지 묶음과 갤러리 목록만 갱신하면 된다.
 
 ## 제작 스킬
@@ -40,5 +42,5 @@
 
 - 재사용 템플릿 위치: `templates/cardnews/typographic-cardnews/`
 - 이전 카드뉴스 이관 산출물 위치: `outputs/cardnews/legacy/`
-- 최종본을 콘텐츠별로 정리할 때는 해당 콘텐츠 폴더의 `output/cardnews/`에 카드 이미지와 README만 둔다.
+- 최종본을 콘텐츠별로 정리할 때는 해당 콘텐츠 폴더의 `output/cardnews/` 바로 아래에 카드 이미지와 README만 둔다.
 - 전체 열람용 보관 목록은 `outputs/cardnews/index.html`에 누적한다.

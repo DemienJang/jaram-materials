@@ -32,7 +32,7 @@
 
 ## 카드뉴스 이관 상태
 
-- 이관 위치: `output/cardnews/smartphone-life-rhythm-flow/`
+- 이관 위치: `output/cardnews/`
 - 선택 이유: 두 후보 모두 14장 PNG가 있으나 `smartphone-life-rhythm-flow`가 더 나중에 수정된 흐름 보완 버전으로 판단됨
 - 보류 후보: `outputs/cardnews/legacy/smartphone-life-rhythm`
 - 전체 갤러리: `outputs/cardnews/index.html`

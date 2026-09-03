@@ -32,7 +32,7 @@
 
 ## 카드뉴스 이관 상태
 
-- 이관 위치: `output/cardnews/time-horizon-trust-v2/`
+- 이관 위치: `output/cardnews/`
 - 선택 이유: `time-horizon-trust`는 HTML/CSS/JS만 있고 PNG 내보내기가 없으며, `time-horizon-trust-v2`는 12장 PNG와 이미지 자산이 있는 완성 후보임
 - 보류 후보: `outputs/cardnews/legacy/time-horizon-trust`
 - 전체 갤러리: `outputs/cardnews/index.html`
