@@ -8,6 +8,43 @@
 
 ### 수정 대상
 
+- `contents/2026-08-time-horizon-trust/output/cardnews/`
+- `contents/2026-08-smartphone-life-rhythm/output/cardnews/`
+- `contents/2026-08-ai-career-first-evidence/output/cardnews/`
+- `contents/2026-09-anxiety-before-listening/output/cardnews/`
+- `contents/*/00_brief.md`
+- `outputs/cardnews/legacy/README.md`
+
+### 수정 의도
+
+발행된 블로그 포스트를 원천 콘텐츠로 삼는 원칙에 맞춰, 기존 카드뉴스 산출물 중 실제 발행 글과 직접 연결되는 것만 콘텐츠별 폴더 안으로 옮기기 위해서다.
+
+### 수정 내용
+
+- `time-horizon-trust-v2`를 `2026-08-time-horizon-trust` 콘텐츠의 카드뉴스 산출물로 복사했다.
+- `smartphone-life-rhythm-flow`를 `2026-08-smartphone-life-rhythm` 콘텐츠의 카드뉴스 산출물로 복사했다.
+- `ai-career-first-evidence`를 `2026-08-ai-career-first-evidence` 콘텐츠의 카드뉴스 산출물로 복사했다.
+- `anxiety-before-listening-cardnews`를 `2026-09-anxiety-before-listening` 콘텐츠의 카드뉴스 산출물로 복사했다.
+- `2026-08-child-aggression-adult`는 직접 연결되는 기존 카드뉴스가 없어 새 제작 필요로 기록했다.
+- 복수 버전이 있는 경우 PNG 내보내기와 수정 시점을 기준으로 콘텐츠 폴더에 둘 후보를 선택하고, 나머지는 `outputs/cardnews/legacy/`에 보류 후보로 남겼다.
+
+### 관련 콘텐츠
+
+- 아이의 공격성을 버텨주는 어른
+- 마시멜로 테스트와 시간의 지평선
+- 스마트폰을 빼앗기 전에, 아이가 무엇을 잃고 있는지 봐야 한다
+- AI 시대, 진로교육은 직업 선택보다 첫 증거 만들기다
+- 불안을 없애려 하기 전에, 먼저 들어야 할 때가 있다
+
+### 다음 점검 사항
+
+- 각 콘텐츠 폴더에 옮긴 카드뉴스가 블로그 원문 흐름과 실제로 일치하는지 최종 검수한다.
+- 직접 연결 카드뉴스가 없는 `아이의 공격성을 버텨주는 어른`은 필요 시 새 카드뉴스로 제작한다.
+
+---
+
+### 수정 대상
+
 - `contents/2026-08-child-aggression-adult/`
 - `contents/2026-08-time-horizon-trust/`
 - `contents/2026-08-smartphone-life-rhythm/`
