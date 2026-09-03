@@ -8,6 +8,41 @@
 
 ### 수정 대상
 
+- `guides/03_CARDNEWS_GUIDE.md`
+- `templates/cardnews/typographic-cardnews/`
+- `outputs/cardnews/legacy/`
+
+### 수정 의도
+
+통합 프로젝트 이전에 `Desktop/blog/card news` 폴더에서 제작했던 카드뉴스 산출물과 재사용 템플릿을 현재 프로젝트의 카드뉴스 운영 구조로 선별 이관하기 위해서다.
+
+### 수정 내용
+
+- `typographic-cardnews` 기반 HTML 템플릿을 `templates/cardnews/typographic-cardnews/`로 이관했다.
+- 완성 카드뉴스 산출물을 `outputs/cardnews/legacy/` 아래로 선별 복사했다.
+- 원본 작업 폴더의 `.git`, `.pnpm-store`, `node_modules`, `.next`, `.wrangler`, `.vinext`, 서버 빌드 파일, 개발 설정 파일은 이관하지 않았다.
+- `outputs/cardnews/legacy/README.md`에 이관 목록, 원본 위치, 버전 후보를 기록했다.
+- `guides/03_CARDNEWS_GUIDE.md`에 `typographic-cardnews` 사용 기준과 이관 산출물 위치를 추가했다.
+
+### 관련 콘텐츠
+
+- AI 시대, 진로교육은 첫 증거 만들기다
+- 불안을 없애려 하기 전에
+- 나는 네 다음이 될 것이다
+- 아무것도 숭배하지 않는 사람은 없다
+- 스마트폰을 빼앗기 전에
+- 그러므로, 어떻게 살 것인가
+- 기다림보다 신뢰가 먼저다
+
+### 다음 점검 사항
+
+- 블로그 원문 이관 시 각 카드뉴스를 해당 콘텐츠 폴더의 `output/cardnews/`로 연결한다.
+- 같은 제목의 복수 버전은 원문과 비교한 뒤 최종본을 결정한다.
+
+---
+
+### 수정 대상
+
 - `AGENTS.md`
 - `guides/00_MASTER_GUIDE.md`
 - `guides/08_LEGACY_IMPORT_GUIDE.md`

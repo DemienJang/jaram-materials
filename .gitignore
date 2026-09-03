@@ -1,2 +1,9 @@
 incoming/*
 !incoming/README.md
+
+node_modules/
+.pnpm-store/
+.next/
+.wrangler/
+.vinext/
+dist/server/

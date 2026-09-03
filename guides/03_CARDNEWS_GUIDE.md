@@ -24,3 +24,11 @@
 ## 저장 위치
 
 카드뉴스 구성안은 `03_cardnews.md`에 저장한다. 실제 제작 파일은 콘텐츠 폴더의 `output/` 또는 `outputs/cardnews/`에 저장한다.
+
+## 제작 스킬
+
+한국어 타이포그래피 중심 카드뉴스 HTML을 제작할 때는 `typographic-cardnews` 스킬을 기본으로 사용한다.
+
+- 재사용 템플릿 위치: `templates/cardnews/typographic-cardnews/`
+- 이전 카드뉴스 이관 산출물 위치: `outputs/cardnews/legacy/`
+- 최종본을 콘텐츠별로 정리할 때는 해당 콘텐츠 폴더의 `output/cardnews/`로 연결하거나 복사한다.
