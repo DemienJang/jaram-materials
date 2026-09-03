@@ -8,6 +8,43 @@
 
 ### 수정 대상
 
+- `guides/03_CARDNEWS_GUIDE.md`
+- `outputs/cardnews/index.html`
+- `outputs/cardnews/README.md`
+- `outputs/cardnews/legacy/README.md`
+- `contents/*/output/cardnews/`
+- `contents/*/00_brief.md`
+
+### 수정 의도
+
+카드뉴스도 교육자료처럼 전체 열람용 아카이브 갤러리로 누적 관리하되, 콘텐츠 폴더는 최종 업로드 이미지와 README만 남기는 가벼운 구조로 정리하기 위해서다.
+
+### 수정 내용
+
+- `outputs/cardnews/index.html`을 추가해 발행 콘텐츠 카드뉴스 최종 이미지를 한 페이지에서 볼 수 있게 했다.
+- `outputs/cardnews/README.md`를 추가해 카드뉴스 아카이브 운영 구조를 기록했다.
+- 콘텐츠 폴더의 카드뉴스 하위에서 `index.html`, `cardnews.css`, `cardnews.js`, `DESIGN-SYSTEM.md`, 보조 `images/`를 제거하고 최종 카드 이미지만 남겼다.
+- 기존 `exports/` 또는 `export/` 하위 카드 이미지를 각 카드뉴스 폴더 바로 아래로 이동했다.
+- 각 카드뉴스 폴더에 README를 두어 최종 파일 수, 형식, 제작 원본 보관 위치, 전체 갤러리 위치를 기록했다.
+- `guides/03_CARDNEWS_GUIDE.md`에 중앙 갤러리와 콘텐츠 폴더 경량화 원칙을 추가했다.
+
+### 관련 콘텐츠
+
+- 아이의 공격성을 버텨주는 어른
+- 마시멜로 테스트와 시간의 지평선
+- 스마트폰을 빼앗기 전에, 아이가 무엇을 잃고 있는지 봐야 한다
+- AI 시대, 진로교육은 직업 선택보다 첫 증거 만들기다
+- 불안을 없애려 하기 전에, 먼저 들어야 할 때가 있다
+
+### 다음 점검 사항
+
+- 새 카드뉴스 생성 시 콘텐츠 폴더에는 최종 이미지와 README만 두고, 전체 갤러리에는 새 항목을 추가한다.
+- 제작 원본 보관 위치를 `outputs/cardnews/legacy/`로 유지할지, 향후 `outputs/cardnews/projects/` 같은 별도 이름으로 분리할지 검토한다.
+
+---
+
+### 수정 대상
+
 - `guides/04_EDU_MATERIAL_GUIDE.md`
 - `outputs/education/`
 - `contents/*/04_edu_material.md`

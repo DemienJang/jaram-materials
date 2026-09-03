@@ -34,6 +34,8 @@
 - 이관 위치: `output/cardnews/ai-career-first-evidence/`
 - 선택 이유: 발행 글 제목과 직접 대응하며 12장 PNG와 이미지 자산이 있는 완성 산출물임
 - 보류 후보: 없음
+- 전체 갤러리: `outputs/cardnews/index.html`
+- 정리 메모: 콘텐츠 폴더에는 최종 PNG와 README만 남기고, HTML/CSS/JS 제작 원본과 보조 이미지는 `outputs/cardnews/legacy/ai-career-first-evidence/`에서 관리함
 
 ## 스레드 이관 상태
 

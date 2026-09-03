@@ -25,10 +25,20 @@
 
 카드뉴스 구성안은 `03_cardnews.md`에 저장한다. 실제 제작 파일은 콘텐츠 폴더의 `output/` 또는 `outputs/cardnews/`에 저장한다.
 
+최종 운영 구조는 다음처럼 나눈다.
+
+- 콘텐츠 폴더의 `output/cardnews/`: 최종 업로드용 카드 이미지와 README만 보관
+- `outputs/cardnews/index.html`: 발행 콘텐츠 카드뉴스를 한 번에 보는 보관용 갤러리
+- `outputs/cardnews/legacy/`: 이전 제작 원본, HTML/CSS/JS, 보조 이미지, 발행 여부가 불확실한 후보 보관
+- `templates/cardnews/`: 재사용 가능한 제작 템플릿 보관
+
+콘텐츠 폴더에 HTML/CSS/JS 제작 원본과 보조 이미지를 반복 복사하지 않는다. 카드 장수는 콘텐츠마다 달라도 최종 이미지 묶음과 갤러리 목록만 갱신하면 된다.
+
 ## 제작 스킬
 
 한국어 타이포그래피 중심 카드뉴스 HTML을 제작할 때는 `typographic-cardnews` 스킬을 기본으로 사용한다.
 
 - 재사용 템플릿 위치: `templates/cardnews/typographic-cardnews/`
 - 이전 카드뉴스 이관 산출물 위치: `outputs/cardnews/legacy/`
-- 최종본을 콘텐츠별로 정리할 때는 해당 콘텐츠 폴더의 `output/cardnews/`로 연결하거나 복사한다.
+- 최종본을 콘텐츠별로 정리할 때는 해당 콘텐츠 폴더의 `output/cardnews/`에 카드 이미지와 README만 둔다.
+- 전체 열람용 보관 목록은 `outputs/cardnews/index.html`에 누적한다.

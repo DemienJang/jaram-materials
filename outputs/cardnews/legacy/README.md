@@ -25,6 +25,8 @@
 
 ## 다음 정리 기준
 
-- 블로그 원문을 이관할 때 각 카드뉴스를 해당 `contents/YYYY-MM-topic/` 폴더의 `output/cardnews/`로 연결한다.
+- 블로그 원문을 이관할 때 각 카드뉴스의 최종 이미지는 해당 `contents/YYYY-MM-topic/` 폴더의 `output/cardnews/`로 연결한다.
+- 콘텐츠 폴더에는 카드 이미지와 README만 두고, HTML/CSS/JS 제작 원본과 보조 이미지는 이 레거시 폴더 또는 템플릿 폴더에서 관리한다.
+- 발행 콘텐츠 카드뉴스는 `outputs/cardnews/index.html` 갤러리에 누적한다.
 - 같은 제목의 복수 버전은 원문과 비교해 최종본을 결정한다.
 - 현재 단계에서는 원본 손실을 피하기 위해 버전 후보를 삭제하지 않는다.
