@@ -24,7 +24,7 @@ Then read the guide that matches the task:
 ## Project Structure
 
 - `guides/`: Local operating rules and style guides. Keep project instructions here, not only in external settings.
-- `contents/`: One folder per content item, for example `contents/2026-09-sample-content/`.
+- `contents/`: One folder per content item, named with a three-digit sequence number, for example `contents/001-sample-content/`.
 - `templates/`: Reusable templates for card news, education files, HTML, and DOCX.
 - `outputs/`: Final exported or published-ready files grouped by format.
 - `archive/`: Completed or inactive content folders.

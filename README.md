@@ -35,7 +35,7 @@ archive/
 ## 콘텐츠 폴더 예시
 
 ```text
-contents/2026-09-sample-content/
+contents/001-sample-content/
 ├─ 00_brief.md
 ├─ 01_blog.md
 ├─ 02_threads.md

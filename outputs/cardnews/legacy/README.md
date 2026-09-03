@@ -12,20 +12,20 @@
 
 | 폴더 | 제목 | PNG | 이미지 | 상태 |
 | --- | --- | ---: | ---: | --- |
-| `ai-career-first-evidence` | AI 시대, 진로교육은 첫 증거 만들기다 | 12 | 1 | `contents/2026-08-ai-career-first-evidence/output/cardnews/`로 연결 |
-| `anxiety-before-listening-cardnews` | 불안을 없애려 하기 전에 | 12 | 0 | `contents/2026-09-anxiety-before-listening/output/cardnews/`로 연결 |
+| `ai-career-first-evidence` | AI 시대, 진로교육은 첫 증거 만들기다 | 12 | 1 | `contents/004-ai-career-first-evidence/output/cardnews/`로 연결 |
+| `anxiety-before-listening-cardnews` | 불안을 없애려 하기 전에 | 12 | 0 | `contents/005-anxiety-before-listening/output/cardnews/`로 연결 |
 | `anxiety-listening-cardnews-app-export` | 불안을 없애려 하기 전에 | 12 | 0 | 보류 후보 |
 | `i-will-be-next-sermon-preview` | 나는 네 다음이 될 것이다 | 10 | 0 | 설교 전 카드뉴스 산출물 이관 |
 | `nothing-worship-cardnews` | 아무것도 숭배하지 않는 사람은 없다 | 12 | 1 | 산출물 이관 |
 | `smartphone-life-rhythm` | 스마트폰을 빼앗기 전에 | 14 | 1 | 보류 후보 |
-| `smartphone-life-rhythm-flow` | 스마트폰을 빼앗기 전에 | 14 | 1 | `contents/2026-08-smartphone-life-rhythm/output/cardnews/`로 연결 |
+| `smartphone-life-rhythm-flow` | 스마트폰을 빼앗기 전에 | 14 | 1 | `contents/003-smartphone-life-rhythm/output/cardnews/`로 연결 |
 | `therefore-how-to-live-cardnews` | 그러므로, 어떻게 살 것인가 | 8 | 0 | 산출물 이관 |
 | `time-horizon-trust` | 기다림보다 신뢰가 먼저다 | 0 | 0 | HTML 초안 또는 이전 버전 후보 |
-| `time-horizon-trust-v2` | 기다림보다 신뢰가 먼저다 | 12 | 1 | `contents/2026-08-time-horizon-trust/output/cardnews/`로 연결 |
+| `time-horizon-trust-v2` | 기다림보다 신뢰가 먼저다 | 12 | 1 | `contents/002-time-horizon-trust/output/cardnews/`로 연결 |
 
 ## 다음 정리 기준
 
-- 블로그 원문을 이관할 때 각 카드뉴스의 최종 이미지는 해당 `contents/YYYY-MM-topic/` 폴더의 `output/cardnews/`로 연결한다.
+- 블로그 원문을 이관할 때 각 카드뉴스의 최종 이미지는 해당 `contents/NNN-short-topic/` 폴더의 `output/cardnews/`로 연결한다.
 - 콘텐츠 폴더에는 카드 이미지와 README만 두고, HTML/CSS/JS 제작 원본과 보조 이미지는 이 레거시 폴더 또는 템플릿 폴더에서 관리한다.
 - 발행 콘텐츠 카드뉴스는 `outputs/cardnews/index.html` 갤러리에 누적한다.
 - 같은 제목의 복수 버전은 원문과 비교해 최종본을 결정한다.

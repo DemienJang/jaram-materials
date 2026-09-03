@@ -8,6 +8,110 @@
 
 ### 수정 대상
 
+- `outputs/materials/`
+- 교육자료 관련 콘텐츠 기록과 운영 문서
+
+### 수정 의도
+
+`outputs/education/education/`처럼 교육자료 유형명과 아카이브 폴더명이 중복되는 구조를 줄이고, 교육자료와 워크북을 함께 담는 아카이브라는 역할을 폴더명에 반영하기 위해 변경했다.
+
+### 수정 내용
+
+- `outputs/education/`을 `outputs/materials/`로 변경했다.
+- 인덱스, 로그, README, 콘텐츠별 `04_edu_material.md`와 브리프의 경로를 갱신했다.
+- 하위 구조는 `outputs/materials/education/`과 `outputs/materials/workbook/`으로 유지했다.
+
+### 다음 점검 사항
+
+- 이후 교육자료와 워크북은 모두 `outputs/materials/` 아래에 저장한다.
+
+## 2026-09-03
+
+### 수정 대상
+
+- `AGENTS.md`
+- `README.md`
+- `guides/00_MASTER_GUIDE.md`
+- `guides/08_LEGACY_IMPORT_GUIDE.md`
+- `contents/`
+- 관련 경로를 포함한 문서 및 인덱스
+
+### 수정 의도
+
+콘텐츠 폴더를 연-월 기준으로 정렬하면 같은 달에 생성된 콘텐츠의 순서를 한눈에 파악하기 어려워, 생성 순서를 폴더 앞부분에 표시하도록 운영 기준을 변경했다.
+
+### 수정 내용
+
+- 콘텐츠 폴더명을 `YYYY-MM-short-topic`에서 `NNN-short-topic` 형식으로 변경했다.
+- 기존 6개 콘텐츠에 `001`부터 `006`까지 순번을 부여했다.
+- 날짜와 생성일은 `00_brief.md`에서 확인하도록 기준을 분리했다.
+- 운영 문서, 카드뉴스·교육자료 인덱스, 콘텐츠 내부 참조 경로를 새 폴더명으로 갱신했다.
+
+### 다음 점검 사항
+
+- 새 콘텐츠 생성 시 가장 큰 순번 다음 번호를 사용한다.
+- 순번 변경이 필요한 경우 폴더 이동과 내부 경로 참조를 함께 갱신한다.
+
+## 2026-09-03
+
+### 수정 대상
+
+- `guides/01_BLOG_STYLE_GUIDE.md`
+- `contents/006-dopamine-wanting-liking/01_blog.md`
+
+### 수정 의도
+
+블로그 스타일 가이드에는 인용문과 구분선의 권장 개수는 있었지만, 최종 저장 전 실제 적용 여부를 확인하는 절차가 부족했다. 그 결과 이번 블로그 글에서 인용문이 0개로 남고 구분선도 1개만 적용되는 문제가 확인되었다.
+
+### 수정 내용
+
+- `guides/01_BLOG_STYLE_GUIDE.md`에 `편집 장치 최종 점검` 섹션을 추가했다.
+- 소제목, 인용문, 볼드, 구분선의 실제 적용 여부를 최종 저장 전 확인하도록 명시했다.
+- 인용문이 0개일 때 핵심 질문이나 전환 문장을 인용문 처리할지 반드시 검토하도록 추가했다.
+- Markdown 기준으로 인용문은 `>`, 구분선은 `---`, 소제목은 `##`, 볼드는 `**`를 기준으로 가능하면 코드나 검색으로 실제 개수를 확인하도록 했다.
+- 이번 블로그 글에 인용문 4개, 구분선 2개, 핵심 개념 중심의 볼드 5쌍이 적용되도록 수정했다.
+
+### 관련 콘텐츠
+
+- `contents/006-dopamine-wanting-liking/01_blog.md`
+
+### 다음 점검 사항
+
+- 다음 블로그 작성부터 게시 전 확인 항목에 편집 장치 실제 계수를 포함한다.
+- 네이버 복붙용 파일을 만들 경우 Markdown 편집 장치가 네이버 에디터에서 어떻게 처리되는지도 별도 기준으로 정리한다.
+
+---
+
+### 수정 대상
+
+- `guides/02_THREAD_GUIDE.md`
+- `contents/006-dopamine-wanting-liking/02_threads.md`
+
+### 수정 의도
+
+기존 스레드 가이드의 `공백 포함 500자 이내` 기준은 상한만 제시해 실제 작성 시 각 편이 200자대의 짧은 요약문처럼 나오는 문제가 있었다. 스레드는 요약문이 아니라 각 편이 하나의 짧은 글처럼 읽혀야 하므로, 최소 밀도와 최대 길이를 함께 제시할 필요가 있었다.
+
+### 수정 내용
+
+- `guides/02_THREAD_GUIDE.md`의 글자 수 기준을 `공백 포함 500자 이내`에서 `공백 포함 400~450자 이내`로 수정했다.
+- 450자를 넘기지 않되, 400자 안팎의 밀도를 기본으로 한다는 설명을 추가했다.
+- 변환 순서의 글자 수 확인 기준을 코드로 정확히 확인하도록 수정했다.
+- `contents/006-dopamine-wanting-liking/02_threads.md`를 새 기준에 맞춰 다시 작성했다.
+
+### 관련 콘텐츠
+
+- `contents/006-dopamine-wanting-liking/01_blog.md`
+- `contents/006-dopamine-wanting-liking/02_threads.md`
+
+### 다음 점검 사항
+
+- 다음 스레드 작성 시 400~450자 기준이 SNS 게시 흐름에 적절한지 확인한다.
+- 플랫폼별 권장 길이가 달라질 경우 `기본형`과 `압축형`을 나누는 기준을 추가할지 검토한다.
+
+---
+
+### 수정 대상
+
 - `guides/03_CARDNEWS_GUIDE.md`
 - `contents/*/output/cardnews/`
 - `outputs/cardnews/index.html`
@@ -78,7 +182,7 @@
 ### 수정 대상
 
 - `guides/04_EDU_MATERIAL_GUIDE.md`
-- `outputs/education/`
+- `outputs/materials/`
 - `contents/*/04_edu_material.md`
 - `contents/*/00_brief.md`
 
@@ -88,7 +192,7 @@
 
 ### 수정 내용
 
-- `outputs/education/` 아래에 기존 `materials` 아카이브의 필수 파일만 복사했다.
+- `outputs/materials/` 아래에 기존 `materials` 아카이브의 필수 파일만 복사했다.
 - 교육자료 HTML 3개와 워크북 HTML 3개를 이관했다.
 - `index.html`, `LOG.md`, `assets/styles.css`, `assets/workbook.js`를 함께 이관해 누적 목록과 공용 동작을 유지했다.
 - 원본 `materials/.git/`은 이관하지 않았다.
@@ -106,14 +210,14 @@
 ### 다음 점검 사항
 
 - 이후 새 블로그 글을 교육자료로 확장할 때 먼저 교육자료형과 워크북형 중 적합한 형식을 판단한다.
-- 새 산출물이 생기면 `outputs/education/index.html`과 해당 콘텐츠의 `04_edu_material.md`를 함께 갱신한다.
+- 새 산출물이 생기면 `outputs/materials/index.html`과 해당 콘텐츠의 `04_edu_material.md`를 함께 갱신한다.
 
 ---
 
 ### 수정 대상
 
-- `contents/2026-08-child-aggression-adult/00_brief.md`
-- `contents/2026-08-child-aggression-adult/output/cardnews/child-aggression-adult/`
+- `contents/001-child-aggression-adult/00_brief.md`
+- `contents/001-child-aggression-adult/output/cardnews/child-aggression-adult/`
 
 ### 수정 의도
 
@@ -138,10 +242,10 @@
 
 ### 수정 대상
 
-- `contents/2026-08-time-horizon-trust/output/cardnews/`
-- `contents/2026-08-smartphone-life-rhythm/output/cardnews/`
-- `contents/2026-08-ai-career-first-evidence/output/cardnews/`
-- `contents/2026-09-anxiety-before-listening/output/cardnews/`
+- `contents/002-time-horizon-trust/output/cardnews/`
+- `contents/003-smartphone-life-rhythm/output/cardnews/`
+- `contents/004-ai-career-first-evidence/output/cardnews/`
+- `contents/005-anxiety-before-listening/output/cardnews/`
 - `contents/*/00_brief.md`
 - `outputs/cardnews/legacy/README.md`
 
@@ -151,11 +255,11 @@
 
 ### 수정 내용
 
-- `time-horizon-trust-v2`를 `2026-08-time-horizon-trust` 콘텐츠의 카드뉴스 산출물로 복사했다.
-- `smartphone-life-rhythm-flow`를 `2026-08-smartphone-life-rhythm` 콘텐츠의 카드뉴스 산출물로 복사했다.
-- `ai-career-first-evidence`를 `2026-08-ai-career-first-evidence` 콘텐츠의 카드뉴스 산출물로 복사했다.
-- `anxiety-before-listening-cardnews`를 `2026-09-anxiety-before-listening` 콘텐츠의 카드뉴스 산출물로 복사했다.
-- `2026-08-child-aggression-adult`는 직접 연결되는 기존 카드뉴스가 없어 새 제작 필요로 기록했다.
+- `time-horizon-trust-v2`를 `001` 이후 순번인 `002-time-horizon-trust` 콘텐츠의 카드뉴스 산출물로 복사했다.
+- `smartphone-life-rhythm-flow`를 `003-smartphone-life-rhythm` 콘텐츠의 카드뉴스 산출물로 복사했다.
+- `ai-career-first-evidence`를 `004-ai-career-first-evidence` 콘텐츠의 카드뉴스 산출물로 복사했다.
+- `anxiety-before-listening-cardnews`를 `005-anxiety-before-listening` 콘텐츠의 카드뉴스 산출물로 복사했다.
+- `001-child-aggression-adult`는 직접 연결되는 기존 카드뉴스가 없어 새 제작 필요로 기록했다.
 - 복수 버전이 있는 경우 PNG 내보내기와 수정 시점을 기준으로 콘텐츠 폴더에 둘 후보를 선택하고, 나머지는 `outputs/cardnews/legacy/`에 보류 후보로 남겼다.
 
 ### 관련 콘텐츠
@@ -175,11 +279,11 @@
 
 ### 수정 대상
 
-- `contents/2026-08-child-aggression-adult/`
-- `contents/2026-08-time-horizon-trust/`
-- `contents/2026-08-smartphone-life-rhythm/`
-- `contents/2026-08-ai-career-first-evidence/`
-- `contents/2026-09-anxiety-before-listening/`
+- `contents/001-child-aggression-adult/`
+- `contents/002-time-horizon-trust/`
+- `contents/003-smartphone-life-rhythm/`
+- `contents/004-ai-career-first-evidence/`
+- `contents/005-anxiety-before-listening/`
 
 ### 수정 의도
 
@@ -296,8 +400,8 @@
 
 ### 관련 콘텐츠
 
-- `contents/2026-09-dopamine-wanting-liking/01_blog.md`
-- `contents/2026-09-dopamine-wanting-liking/00_brief.md`
+- `contents/006-dopamine-wanting-liking/01_blog.md`
+- `contents/006-dopamine-wanting-liking/00_brief.md`
 
 ### 다음 점검 사항
 

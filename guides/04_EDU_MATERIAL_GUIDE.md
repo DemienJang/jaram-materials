@@ -28,15 +28,15 @@
 
 ## 저장 위치
 
-교육자료 원고는 `04_edu_material.md`에 저장한다. HTML, DOCX, PDF 등 최종 파일은 콘텐츠 폴더의 `output/` 또는 `outputs/education/`에 저장한다.
+교육자료 원고는 `04_edu_material.md`에 저장한다. HTML, DOCX, PDF 등 최종 파일은 콘텐츠 폴더의 `output/` 또는 `outputs/materials/`에 저장한다.
 
 ## 생성 및 이관 운영
 
 - 교육자료형 HTML은 `$jaram-education-material` 기준을 따른다.
 - 워크북형 HTML은 `$jaram-participatory-workbook` 기준을 따른다.
-- 최종 HTML은 `outputs/education/` 아래의 누적 아카이브 구조에 저장한다.
-- `outputs/education/index.html`은 교육자료와 워크북을 함께 관리하는 대표 인덱스다.
-- 공유 스타일과 저장 동작은 `outputs/education/assets/`의 공용 파일을 사용한다.
+- 최종 HTML은 `outputs/materials/` 아래의 누적 아카이브 구조에 저장한다.
+- `outputs/materials/index.html`은 교육자료와 워크북을 함께 관리하는 대표 인덱스다.
+- 공유 스타일과 저장 동작은 `outputs/materials/assets/`의 공용 파일을 사용한다.
 - 기존 `blog/materials` 자료를 가져올 때는 `.git/` 같은 저장소 메타데이터를 제외하고, 최종 HTML, `index.html`, `LOG.md`, 공유 assets처럼 운영에 필요한 파일만 선별한다.
 - 콘텐츠별 폴더의 `04_edu_material.md`에는 형식 판단, 원본 위치, 이관 위치, 인덱스 연결 상태를 기록한다.
 - 생성 또는 이관 후 같은 작업 흐름 안에서 Git 커밋까지 완료해 이력을 남긴다.

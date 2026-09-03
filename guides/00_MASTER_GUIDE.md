@@ -35,7 +35,7 @@
 
 1. `AGENTS.md`와 이 파일을 먼저 읽는다.
 2. 작업 유형에 맞는 세부 가이드를 읽는다. 이전 콘텐츠를 가져오는 작업은 `guides/08_LEGACY_IMPORT_GUIDE.md`를 따른다.
-3. 콘텐츠별 폴더가 없으면 `contents/YYYY-MM-topic/` 형식으로 만든다.
+3. 콘텐츠별 폴더가 없으면 `contents/NNN-short-topic/` 형식으로 만든다. `NNN`은 생성 순번이며, 날짜는 `00_brief.md`에서 확인한다.
 4. `00_brief.md`를 먼저 작성하거나 갱신한다.
 5. 블로그 글이 필요하면 `01_blog.md`를 작성한다.
 6. 파생 콘텐츠를 같은 폴더 안에 만든다.

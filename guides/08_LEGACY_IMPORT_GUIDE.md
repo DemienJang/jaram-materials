@@ -50,7 +50,7 @@
 권장 폴더명:
 
 ```text
-contents/YYYY-MM-short-topic/
+contents/NNN-short-topic/
 ```
 
 작성일을 알 수 없으면 이관 월을 사용하고, `00_brief.md`에 원래 작성 시점을 `작성 시점 추정`으로 기록한다.
@@ -102,7 +102,7 @@ contents/YYYY-MM-short-topic/
 
 1. 원본 폴더의 파일 목록을 먼저 확인한다.
 2. 5개 콘텐츠로 나뉘는 기준을 찾는다.
-3. 각 콘텐츠마다 `contents/YYYY-MM-short-topic/` 폴더를 만든다.
+3. 각 콘텐츠마다 다음 순번의 `contents/NNN-short-topic/` 폴더를 만든다.
 4. 먼저 `00_brief.md`를 작성한다.
 5. 원본 블로그 글이 있으면 `01_blog.md`로 복사하거나 정리한다.
 6. 파생 자료가 있으면 현재 표준 파일명으로 정리한다.
