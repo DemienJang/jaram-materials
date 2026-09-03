@@ -8,6 +8,41 @@
 
 ### 수정 대상
 
+- `contents/2026-08-child-aggression-adult/`
+- `contents/2026-08-time-horizon-trust/`
+- `contents/2026-08-smartphone-life-rhythm/`
+- `contents/2026-08-ai-career-first-evidence/`
+- `contents/2026-09-anxiety-before-listening/`
+
+### 수정 의도
+
+이전 카드뉴스 산출물을 먼저 이관했지만, 실제 운영 기준은 발행된 블로그 글이어야 한다는 점을 반영하기 위해 사용자가 제공한 Naver 블로그 포스트 5개를 원천 콘텐츠로 삼아 콘텐츠별 폴더를 만들었다.
+
+### 수정 내용
+
+- 제공된 발행 포스트 5개를 기준으로 콘텐츠별 폴더를 생성했다.
+- 각 폴더에 `00_brief.md`와 `01_blog.md`를 만들었다.
+- `01_blog.md`에는 발행본 제목, 원문 링크, 발행일, 카테고리, 본문을 이관했다.
+- `00_brief.md`에는 원본 위치, 이관 판단, 발행 정보, 기존 카드뉴스 연결 후보를 기록했다.
+- 기존 카드뉴스 중 실제 발행 포스트와 직접 연결되는 후보를 각 브리프에 표시했다.
+
+### 관련 콘텐츠
+
+- 아이의 공격성을 버텨주는 어른
+- 마시멜로 테스트와 시간의 지평선
+- 스마트폰을 빼앗기 전에, 아이가 무엇을 잃고 있는지 봐야 한다
+- AI 시대, 진로교육은 직업 선택보다 첫 증거 만들기다
+- 불안을 없애려 하기 전에, 먼저 들어야 할 때가 있다
+
+### 다음 점검 사항
+
+- 각 콘텐츠 폴더의 `output/cardnews/`로 발행 글과 연결되는 카드뉴스 최종본을 옮기거나 연결한다.
+- 발행되지 않은 카드뉴스 산출물은 별도 후보 또는 보류 자료로 정리한다.
+
+---
+
+### 수정 대상
+
 - `guides/03_CARDNEWS_GUIDE.md`
 - `templates/cardnews/typographic-cardnews/`
 - `outputs/cardnews/legacy/`
