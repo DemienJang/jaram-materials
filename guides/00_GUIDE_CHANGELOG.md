@@ -8,6 +8,41 @@
 
 ### 수정 대상
 
+- `guides/04_EDU_MATERIAL_GUIDE.md`
+- `outputs/education/`
+- `contents/*/04_edu_material.md`
+- `contents/*/00_brief.md`
+
+### 수정 의도
+
+기존 `Desktop/blog/materials` 폴더에서 생성했던 교육자료와 워크북을 통합 프로젝트의 콘텐츠 중심 구조와 누적 인덱스 구조에 맞게 선별 이관하기 위해서다.
+
+### 수정 내용
+
+- `outputs/education/` 아래에 기존 `materials` 아카이브의 필수 파일만 복사했다.
+- 교육자료 HTML 3개와 워크북 HTML 3개를 이관했다.
+- `index.html`, `LOG.md`, `assets/styles.css`, `assets/workbook.js`를 함께 이관해 누적 목록과 공용 동작을 유지했다.
+- 원본 `materials/.git/`은 이관하지 않았다.
+- 각 콘텐츠 폴더에 `04_edu_material.md`를 추가해 교육자료형/워크북형 판단, 원본 위치, 이관 위치를 기록했다.
+- `guides/04_EDU_MATERIAL_GUIDE.md`에 교육자료형과 워크북형 판단 기준, 누적 인덱스 관리, 생성 후 커밋 원칙을 추가했다.
+
+### 관련 콘텐츠
+
+- 아이의 공격성을 버텨주는 어른
+- 마시멜로 테스트와 시간의 지평선
+- 스마트폰을 빼앗기 전에, 아이가 무엇을 잃고 있는지 봐야 한다
+- AI 시대, 진로교육은 직업 선택보다 첫 증거 만들기다
+- 불안을 없애려 하기 전에, 먼저 들어야 할 때가 있다
+
+### 다음 점검 사항
+
+- 이후 새 블로그 글을 교육자료로 확장할 때 먼저 교육자료형과 워크북형 중 적합한 형식을 판단한다.
+- 새 산출물이 생기면 `outputs/education/index.html`과 해당 콘텐츠의 `04_edu_material.md`를 함께 갱신한다.
+
+---
+
+### 수정 대상
+
 - `contents/2026-08-child-aggression-adult/00_brief.md`
 - `contents/2026-08-child-aggression-adult/output/cardnews/child-aggression-adult/`
 
