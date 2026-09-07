@@ -1,0 +1,5 @@
+/* 카드 역할에 따른 세로 위치 체계: 상단형 · 중앙형 · 하단형 */
+.card{padding-top:16cqw}
+.card>.topline{position:absolute;top:7.9cqw;left:8.5cqw;right:8.5cqw;height:5.5cqw;padding-bottom:2.2cqw}
+.item:nth-child(1) .card,.item:nth-child(10) .card{justify-content:flex-end}.item:nth-child(1) .coverbody,.item:nth-child(10) .coverbody{margin-top:auto;margin-bottom:10cqw}.item:nth-child(2) .card,.item:nth-child(3) .card,.item:nth-child(5) .card,.item:nth-child(6) .card,.item:nth-child(8) .card,.item:nth-child(9) .card{justify-content:center}.item:nth-child(2) .statement,.item:nth-child(3) .statement,.item:nth-child(5) .split,.item:nth-child(6) .statement,.item:nth-child(8) .statement,.item:nth-child(9) .statement{margin:0}.item:nth-child(4) .card,.item:nth-child(7) .card{justify-content:flex-start}
+.item:nth-child(5) .split div:first-child{padding-top:5cqw;border-top:0}

@@ -30,6 +30,25 @@
 
 교육자료 원고는 `04_edu_material.md`에 저장한다. HTML, DOCX, PDF 등 최종 파일은 콘텐츠 폴더의 `output/` 또는 `outputs/materials/`에 저장한다.
 
+## 링크 미리보기 이미지
+
+교육자료와 워크북 HTML에는 네이버 블로그 링크 미리보기용 Open Graph 이미지 코드를 반드시 넣는다. `og:image`와 Twitter 공유용 `twitter:image`에는 아래 유형별 고정 이미지를 사용한다.
+
+- 교육자료:
+  `https://postfiles.pstatic.net/MjAyNjA4MjRfMTMy/MDAxNzg3NTY2MTIxNDI1.CLqViIqSs66R8UUXaOOcSx8uXkB1Cqwjb_PjrithQEEg.GeERS3MajeJVU98Y_wvZu9vTUGTeUwn4GxCQbRQt11sg.PNG/9.png?type=w966`
+- 워크북:
+  `https://postfiles.pstatic.net/MjAyNjA4MjRfMjI4/MDAxNzg3NTY2MTIxNDMy.vOPb8aKaB9WgSy1HHIc1WBtelcY_zrF0f2LuY1drgFUg._VPHUKNkMDtMkaRIaH7JY1oyrzynSD6kuY7bhFAQktIg.PNG/10.png?type=w966`
+
+각 HTML의 `<head>`에 최소한 다음 태그를 포함한다.
+
+```html
+<meta property="og:image" content="유형별 고정 이미지 URL" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="유형별 고정 이미지 URL" />
+```
+
+이미지 URL은 로컬 경로나 상대 경로가 아닌 공개된 절대 URL이어야 한다. 생성 후 유형에 맞는 이미지 URL, 메타 태그 존재 여부, 네이버에 공유할 페이지의 `<head>` 적용 여부를 확인한다.
+
 ## 생성 및 이관 운영
 
 - 교육자료형 HTML은 `$jaram-education-material` 기준을 따른다.

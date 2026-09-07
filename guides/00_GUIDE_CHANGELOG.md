@@ -8,6 +8,56 @@
 
 ### 수정 대상
 
+- `guides/03_CARDNEWS_GUIDE.md`
+
+### 수정 의도
+
+사용자 요청에 따라 카드뉴스 첫 장의 이미지 사용을 선택 사항에서 필수 사항으로 변경한다.
+
+### 수정 내용
+
+- 새 카드뉴스 첫 장에 본문 주제나 핵심 정서를 암시하는 이미지를 반드시 포함하도록 했다.
+- 이미지가 텍스트보다 앞서지 않도록 배경 처리와 가독성 검수를 유지한다.
+- 적절한 사실 이미지가 없을 때도 질감·사물·공간·상징 장면 등 대체 이미지를 사용하도록 했다.
+- 제작안과 최종 검수 항목에 이미지 삽입 여부를 포함했다.
+
+### 다음 점검 사항
+
+- 이후 제작되는 모든 카드뉴스의 `card-01`에 이미지가 실제로 포함되었는지 확인한다.
+
+## 2026-09-03
+
+### 수정 대상
+
+- `guides/03_CARDNEWS_GUIDE.md`
+
+### 수정 의도
+
+각 콘텐츠의 카드뉴스 첫 장을 확인한 결과 이미지 사용 방식이 서로 달랐으므로, 이미지 사용을 의무화하지 않으면서도 표지 이미지의 역할과 판단 기준을 명확히 하기 위해 수정했다.
+
+### 수정 내용
+
+- `001`, `005`, `006`의 타이포그래피 중심 표지와 `002`, `003`, `004`의 저채도 배경 이미지 표지를 점검 사례로 반영했다.
+- 첫 장 이미지는 선택 사항이며, 핵심 질문과 정서 전달을 우선한다는 기준을 추가했다.
+- 이미지 사용 시 배경 역할, 가독성 처리, 출처 기록을 확인하도록 추가했다.
+
+### 관련 콘텐츠
+
+- `contents/001-child-aggression-adult/output/cardnews/card-01.jpg`
+- `contents/002-time-horizon-trust/output/cardnews/card-01.png`
+- `contents/003-smartphone-life-rhythm/output/cardnews/card-01.png`
+- `contents/004-ai-career-first-evidence/output/cardnews/card-01.png`
+- `contents/005-anxiety-before-listening/output/cardnews/card-01.png`
+- `contents/006-dopamine-wanting-liking/output/cardnews/card-01.png`
+
+### 다음 점검 사항
+
+- 새 카드뉴스의 `03_cardnews.md`에 첫 장 이미지 사용 여부와 이미지 역할을 기록한다.
+
+## 2026-09-03
+
+### 수정 대상
+
 - `outputs/materials/`
 - 교육자료 관련 콘텐츠 기록과 운영 문서
 
@@ -24,6 +74,26 @@
 ### 다음 점검 사항
 
 - 이후 교육자료와 워크북은 모두 `outputs/materials/` 아래에 저장한다.
+
+## 2026-09-03
+
+### 수정 대상
+
+- `guides/04_EDU_MATERIAL_GUIDE.md`
+
+### 수정 의도
+
+네이버 블로그에 교육자료 링크를 공유할 때 유형별 대표 이미지가 링크 미리보기에 표시되도록 제작 기준을 명시한다.
+
+### 수정 내용
+
+- 교육자료와 워크북 HTML에 `og:image`와 `twitter:image`를 반드시 넣도록 추가했다.
+- 교육자료에는 `9.png`, 워크북에는 `10.png` 고정 이미지를 사용하도록 구분했다.
+- 공개 절대 URL 사용과 생성 후 메타 태그 점검 항목을 추가했다.
+
+### 다음 점검 사항
+
+- 새 교육자료·워크북 제작 시 유형별 고정 이미지 URL이 정확히 적용되었는지 확인한다.
 
 ## 2026-09-03
 
@@ -407,3 +477,31 @@
 
 - 블로그 글을 몇 편 더 작성한 뒤, 소제목 기준과 결말 기준을 추가로 보완할지 검토한다.
 - 다른 산출물 가이드가 수정될 때도 이 파일에 변경 이력을 누적 기록한다.
+
+---
+
+## 2026-09-03
+
+### 수정 대상
+
+- `guides/06_CONTENT_RESEARCH_GUIDE.md`
+- `guides/09_IDEA_PIPELINE_GUIDE.md`
+- `contents/000-idea-pipeline/`
+- `incoming/my-wiki-import/`
+
+### 수정 의도
+
+`my-wiki`를 수정하지 않는 읽기 전용 원천자료로 두고, 블로그 소재 발굴과 발행 상태 관리를 `blog-operation` 안에서 수행하기 위한 구조를 마련했다.
+
+### 수정 내용
+
+- `my-wiki`의 `_blog-ideas.md`, `_log.md`, `_log-PaxtownPC.md`를 초기 검토용으로 `incoming/my-wiki-import/`에 복사했다.
+- 이관 목적과 원본 보존 원칙을 `IMPORT_NOTE.md`에 기록했다.
+- `contents/000-idea-pipeline/`에 아이디어 목록, 발행 로그, 원천자료 색인 파일을 만들었다.
+- 아이디어 운영 기준을 `guides/09_IDEA_PIPELINE_GUIDE.md`에 추가했다.
+- 콘텐츠 리서치 가이드에 `my-wiki` 읽기 전용 원칙과 선별 기록 기준을 추가했다.
+
+### 다음 점검 사항
+
+- 초기 이관 파일을 검토해 실제 아이디어를 `01_ideas.md`에 선별 기록한다.
+- 각 아이디어의 원천 위치와 현재 발행 상태를 확인한다.

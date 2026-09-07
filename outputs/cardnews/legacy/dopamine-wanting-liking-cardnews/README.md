@@ -6,9 +6,9 @@
 
 ## 원천 콘텐츠
 
-- 콘텐츠 폴더: `contents/006-dopamine-wanting-liking/`
-- 블로그 원문: `contents/006-dopamine-wanting-liking/01_blog.md`
-- 카드뉴스 기획안: `contents/006-dopamine-wanting-liking/03_cardnews.md`
+- 콘텐츠 폴더: `contents/007-dopamine-wanting-liking/`
+- 블로그 원문: `contents/007-dopamine-wanting-liking/01_blog.md`
+- 카드뉴스 기획안: `contents/007-dopamine-wanting-liking/03_cardnews.md`
 
 ## 포함 파일
 
@@ -19,7 +19,7 @@
 
 ## 최종 이미지
 
-- 위치: `contents/006-dopamine-wanting-liking/output/cardnews/`
+- 위치: `contents/007-dopamine-wanting-liking/output/cardnews/`
 - 형식: PNG
 - 규격: 1080 x 1350
 - 장수: 10장

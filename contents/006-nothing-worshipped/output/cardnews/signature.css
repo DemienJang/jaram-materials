@@ -1,0 +1,9 @@
+/* Jang Jaesik signature layer: 기록물의 흔적과 질문의 이동 */
+.card{isolation:isolate}
+.card>*{position:relative;z-index:1}
+.card::after{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.16;background:repeating-linear-gradient(0deg,transparent 0,transparent 11cqw,rgba(32,49,54,.15) 11.12cqw,transparent 11.28cqw)}
+.cover::after,.dark::after,.blue::after{background:repeating-linear-gradient(0deg,transparent 0,transparent 11cqw,rgba(251,250,246,.14) 11.12cqw,transparent 11.28cqw)}
+.item:nth-child(2) .card::before{content:"Q.";position:absolute;right:8.5cqw;top:18cqw;color:var(--rust);font-size:10cqw;font-weight:800;letter-spacing:-.08em;opacity:.75}
+.item:nth-child(3) .card::before,.item:nth-child(8) .card::before{content:"→";position:absolute;right:8.5cqw;bottom:10cqw;color:var(--rust);font-size:8cqw;font-weight:520;opacity:.75}
+.item:nth-child(5) .card::before{content:"기준의 출처";position:absolute;right:8.5cqw;top:15.2cqw;color:#9aabad;font-size:2.5cqw;font-weight:650;letter-spacing:.08em;opacity:.78}
+.item:nth-child(10) .card::before{content:"처음 질문으로 돌아가기";position:absolute;right:8.5cqw;top:18cqw;color:#e6d6c4;font-size:2.6cqw;font-weight:650;writing-mode:vertical-rl;letter-spacing:.08em;opacity:.86}
