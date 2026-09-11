@@ -15,6 +15,14 @@
     <meta name="twitter:image" content="https://postfiles.pstatic.net/MjAyNjA4MjRfMjI4/MDAxNzg3NTY2MTIxNDMy.vOPb8aKaB9WgSy1HHIc1WBtelcY_zrF0f2LuY1drgFUg._VPHUKNkMDtMkaRIaH7JY1oyrzynSD6kuY7bhFAQktIg.PNG/10.png?type=w966" />
     <title>우리는 욕구를 말하지 않고 서로를 탓했다 · 대화 워크북</title>
     <link rel="stylesheet" href="../assets/styles.css?v=conversation-needs-layout-2" />
+    <style>
+      /* Keep the conversation workbook's selectable need cards with the reading content. */
+      body.workbook[data-concept="conversation-needs"] #need > .check-grid,
+      body.workbook[data-concept="conversation-needs"] #need > .activity-list {
+        grid-column: 2 !important;
+        min-width: 0;
+      }
+    </style>
     <script src="../assets/workbook.js" defer></script>
   </head>
   <body class="material workbook" data-concept="conversation-needs">

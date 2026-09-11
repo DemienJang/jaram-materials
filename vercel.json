@@ -4,5 +4,16 @@
       "source": "/(.*)",
       "destination": "/outputs/materials/$1"
     }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    }
   ]
 }
