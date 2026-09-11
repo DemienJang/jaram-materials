@@ -17,7 +17,9 @@
     <link rel="stylesheet" href="../assets/styles.css?v=conversation-needs-layout-2" />
     <style>
       /* Keep the conversation workbook's selectable need cards with the reading content. */
+      body.workbook[data-concept="conversation-needs"] #read > .check-grid,
       body.workbook[data-concept="conversation-needs"] #need > .check-grid,
+      body.workbook[data-concept="conversation-needs"] #practice > .check-grid,
       body.workbook[data-concept="conversation-needs"] #need > .activity-list {
         grid-column: 2 !important;
         min-width: 0;

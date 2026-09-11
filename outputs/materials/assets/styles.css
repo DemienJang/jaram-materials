@@ -2923,7 +2923,9 @@ a {
 }
 
 /* Keep the four need choices on the main reading column in deployed and cached builds. */
+.workbook[data-concept="conversation-needs"] #read > .check-grid,
 .workbook[data-concept="conversation-needs"] #need > .check-grid,
+.workbook[data-concept="conversation-needs"] #practice > .check-grid,
 .workbook[data-concept="conversation-needs"] #need > .activity-list {
   grid-column: 2 !important;
 }
