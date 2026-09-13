@@ -40,6 +40,7 @@ Each content folder should use this structure when relevant:
 - `03_cardnews.md`: Card news outline or script.
 - `04_edu_material.md`: Education material draft.
 - `05_image_prompt.md`: Title image direction and generation prompt.
+- `06_edu_material_blog.md`: Education material or workbook creation note for why it was made and how to use it.
 - `output/`: Final files for that content item.
 
 ## Operating Principles
@@ -47,5 +48,7 @@ Each content folder should use this structure when relevant:
 Do not invent personal experiences. Extract scenes, questions, and meaning from user-provided experience, notes, sermons, lectures, reading records, coaching records, or conversations.
 
 Start by creating or updating `00_brief.md`. If a blog post is needed, create `01_blog.md` first. Create derived outputs in the same content folder and save final production files under `output/` or the root `outputs/` folders.
+
+When creating an education material or workbook, update `outputs/materials/LOG.md` and `outputs/materials/index.html` in the same workflow.
 
 At the end of each task, summarize completion status and the next recommended action.

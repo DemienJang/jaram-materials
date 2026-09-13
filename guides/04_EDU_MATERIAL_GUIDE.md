@@ -30,6 +30,16 @@
 
 교육자료 원고는 `04_edu_material.md`에 저장한다. HTML, DOCX, PDF 등 최종 파일은 콘텐츠 폴더의 `output/` 또는 `outputs/materials/`에 저장한다.
 
+## 제작노트
+
+교육자료형 또는 워크북형 결과물을 만들 때는 `06_edu_material_blog.md`를 함께 작성한다.
+
+- 자료를 왜 만들었는지 독백체로 설명한다.
+- 자료 안에 어떤 질문과 기록 칸을 두었는지 간결하게 소개한다.
+- 독자가 자료를 어떻게 읽고 활용하면 되는지 알려준다.
+- 결과물을 홍보하기보다, 블로그 글의 질문이 교육자료나 워크북에서 어떻게 이어졌는지 기록한다.
+- 교육자료의 모든 내용을 다시 설명하지 않고, 목적과 활용을 이해할 수 있는 정도로 작성한다.
+
 ## 링크 미리보기 이미지
 
 교육자료와 워크북 HTML에는 네이버 블로그 링크 미리보기용 Open Graph 이미지 코드를 반드시 넣는다. `og:image`와 Twitter 공유용 `twitter:image`에는 아래 유형별 고정 이미지를 사용한다.
@@ -55,6 +65,7 @@
 - 워크북형 HTML은 `$jaram-participatory-workbook` 기준을 따른다.
 - 최종 HTML은 `outputs/materials/` 아래의 누적 아카이브 구조에 저장한다.
 - `outputs/materials/index.html`은 교육자료와 워크북을 함께 관리하는 대표 인덱스다.
+- `outputs/materials/LOG.md`는 교육자료·워크북 생성 및 주요 수정 이력을 기록하는 대표 로그다. 새 자료를 생성하면 인덱스와 로그를 함께 갱신한다.
 - 공유 스타일과 저장 동작은 `outputs/materials/assets/`의 공용 파일을 사용한다.
 - 기존 `blog/materials` 자료를 가져올 때는 `.git/` 같은 저장소 메타데이터를 제외하고, 최종 HTML, `index.html`, `LOG.md`, 공유 assets처럼 운영에 필요한 파일만 선별한다.
 - 콘텐츠별 폴더의 `04_edu_material.md`에는 형식 판단, 원본 위치, 이관 위치, 인덱스 연결 상태를 기록한다.
