@@ -26,3 +26,10 @@
 - Created `education/education-wanting-liking.html` as 교육자료 · 04, 좋아하지도 않는데 계속 원하게 되는 이유.
 - Updated `index.html` with the new education archive entry.
 - Added self-check memo fields for repeated behavior, trigger signals, after-effects, and underlying needs.
+
+## 2026-09-13
+
+- Created `education/education-teacher-deliberate-practice.html` as 교육자료 · 05, 좋은 내용을 준비하는 것과 잘 가르치는 것은 달랐다.
+- Updated `index.html` with the new education archive entry.
+- Added reflection prompts on waiting through silence, extending shallow answers, and adjusting lessons from students' actual responses.
+- Routed the Vercel site root to the materials archive and removed the duplicate root index and log files.
