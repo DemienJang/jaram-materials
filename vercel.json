@@ -1,9 +1,10 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/outputs/materials/$1"
-    }
+    { "source": "/", "destination": "/outputs/materials/index.html" },
+    { "source": "/education/:path*", "destination": "/outputs/materials/education/:path*" },
+    { "source": "/workbook/:path*", "destination": "/outputs/materials/workbook/:path*" },
+    { "source": "/assets/:path*", "destination": "/outputs/materials/assets/:path*" }
   ],
   "headers": [
     {
