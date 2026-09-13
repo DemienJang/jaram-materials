@@ -27,6 +27,12 @@
 - Updated `index.html` with the new education archive entry.
 - Added self-check memo fields for repeated behavior, trigger signals, after-effects, and underlying needs.
 
+## 2026-09-11
+
+- Created `workbook/workbook-conversation-needs.html` as 워크북 · 04, 욕구를 말하는 대화 연습.
+- Added activity support for distinguishing facts, feelings, and needs and changing blame into requests.
+- Adjusted need-choice grids and workbook content-column placement for a more stable layout.
+
 ## 2026-09-13
 
 - Created `education/education-teacher-deliberate-practice.html` as 교육자료 · 05, 좋은 내용을 준비하는 것과 잘 가르치는 것은 달랐다.
