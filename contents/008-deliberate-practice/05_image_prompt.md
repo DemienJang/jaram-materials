@@ -15,7 +15,7 @@
 - 늦은 오후의 부드러운 자연광
 - 따뜻한 회색과 빛바랜 청색 중심의 절제된 색감
 - 이미지 안에 제목, 문구, 로고, 워터마크를 넣지 않음
-- 제목 `오래 준비했는데도 잘 가르치지 못한 이유`를 상단 여백에 읽기 쉬운 편집형 타이포그래피로 배치
+- 제목 `오래 준비했는데도 잘 가르치지 못한 이유`를 상단 여백에 자연스러운 손글씨 붓펜 타이포그래피로 배치
 
 ## 최종 파일
 
@@ -23,4 +23,4 @@
 
 ## 생성 프롬프트
 
-Use case: photorealistic-natural. A quiet, emotionally honest small-group meeting room scene symbolizing the gap between preparing good content and actually teaching it well. A modest church or community small-group room after a session, a shared table, 4–6 simple chairs, notebooks and discussion materials, a soft wall or whiteboard in the background. An East Asian male small-group leader in his 30s–40s, wearing a casual cardigan, sits quietly and reflects on the conversation. His posture suggests humility and a desire to try again. Restrained documentary editorial photography, realistic Korean community-room atmosphere, natural human proportions, subtle film grain. Square composition with the man and table near the center, important subject matter kept within the central safe area so a 4:1 horizontal crop still preserves the emotional meaning. Soft late-afternoon window light, muted warm gray and desaturated blue palette, contemplative, slightly regretful but hopeful. Add the exact Korean title `오래 준비했는데도 잘 가르치지 못한 이유` in clean, highly legible editorial typography in the upper negative space. No extra words, no logos, no watermark, no recognizable minors, no classroom desks, no school setting, no stock-photo smile, no exaggerated sadness, no colorful illustration, no clutter.
+Use case: photorealistic-natural. A quiet, emotionally honest small-group meeting room scene symbolizing the gap between preparing good content and actually teaching it well. A modest church or community small-group room after a session, a shared table, 4–6 simple chairs, notebooks and discussion materials, a soft wall or whiteboard in the background. An East Asian male small-group leader in his 30s–40s, wearing a casual cardigan, sits quietly and reflects on the conversation. His posture suggests humility and a desire to try again. Restrained documentary editorial photography, realistic Korean community-room atmosphere, natural human proportions, subtle film grain. Square composition with the man and table near the center, important subject matter kept within the central safe area so a 4:1 horizontal crop still preserves the emotional meaning. Soft late-afternoon window light, muted warm gray and desaturated blue palette, contemplative, slightly regretful but hopeful. Add the exact Korean title `오래 준비했는데도 잘 가르치지 못한 이유` in clearly legible, elegant Korean brush-pen handwriting in the upper negative space, with natural handwritten strokes and a refined editorial book-cover feel. No extra words, no logos, no watermark, no recognizable minors, no classroom desks, no school setting, no stock-photo smile, no exaggerated sadness, no colorful illustration, no clutter.
