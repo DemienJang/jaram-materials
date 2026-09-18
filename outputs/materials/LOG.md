@@ -39,3 +39,9 @@
 - Updated `index.html` with the new education archive entry.
 - Added reflection prompts on waiting through silence, extending shallow answers, and adjusting lessons from students' actual responses.
 - Routed the Vercel site root to the materials archive and removed the duplicate root index and log files.
+
+## 2026-09-18
+
+- Created `workbook/workbook-reading-editing.html` as 워크북 · 05, 읽은 것을 내 언어로 편집하기.
+- Added activities for selecting a source, separating key points, mapping relationships, connecting personal questions, and writing a new version in the learner’s own language.
+- Updated `index.html` with the new workbook archive entry.
