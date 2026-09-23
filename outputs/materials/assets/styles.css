@@ -602,14 +602,29 @@ a {
 .production-list--archive {
   margin-top: 0;
   row-gap: 18px;
+  align-content: start;
 }
 
 .production-list--archive header {
-  grid-row: 1 / -1;
+  grid-column: 1;
+  grid-row: auto;
+  align-self: start;
 }
 
 .production-list--archive .production-item {
   grid-column: 2;
+}
+
+/* The archive index must size to its content; do not stretch the page to the viewport. */
+.materials-list-page .compare-main,
+.materials-list-page .materials-main,
+.materials-list-page .production-list--archive {
+  min-height: 0 !important;
+  height: auto !important;
+}
+
+.materials-list-page .compare-main {
+  padding-bottom: 36px;
 }
 
 .compare-footer {
