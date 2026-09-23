@@ -592,7 +592,7 @@ a {
 }
 
 .materials-main {
-  min-height: calc(100vh - 150px);
+  min-height: 0;
 }
 
 .materials-intro {
@@ -605,7 +605,7 @@ a {
 }
 
 .production-list--archive header {
-  grid-row: 1 / span 99;
+  grid-row: 1 / -1;
 }
 
 .production-list--archive .production-item {
@@ -1883,6 +1883,21 @@ a {
   background: rgba(248, 250, 249, 0.55);
 }
 
+.workbook .check-grid section label {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  margin-top: 10px;
+  line-height: 1.6;
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+
+.workbook .check-grid section input {
+  margin-right: 7px;
+  vertical-align: middle;
+}
+
 .check-grid section > span {
   color: var(--accent);
   font-family: var(--mono);
@@ -2374,6 +2389,23 @@ a {
   gap: 42px;
 }
 
+/* Workbook content blocks must never fall into the narrow marker column. */
+.workbook .content-section > .question-box,
+.workbook .content-section > .check-grid,
+.workbook .content-section > .activity-list,
+.workbook .content-section > .scenario-list,
+.workbook .content-section > .development-flow,
+.workbook .content-section > .principle-pair {
+  grid-column: 2 / -1;
+  min-width: 0;
+}
+
+.workbook .content-section > .question-box,
+.workbook .content-section > .check-grid,
+.workbook .content-section > .activity-list {
+  margin-top: 34px;
+}
+
 .workbook .content-section + .content-section {
   border-top: 1px dashed rgba(38, 55, 46, 0.3);
 }
@@ -2460,6 +2492,35 @@ a {
   background: #f6f0e0;
 }
 
+.workbook .question-box .question-label,
+.workbook .question-box > p,
+.workbook .question-box > small,
+.workbook .question-box > label,
+.workbook .question-box > textarea {
+  display: block;
+  width: 100%;
+}
+
+.workbook .question-box > p {
+  margin: 22px 0 18px;
+  line-height: 1.9;
+}
+
+.workbook .question-box > label {
+  margin-top: 14px;
+  line-height: 1.75;
+}
+
+.workbook .question-box > small {
+  margin-top: 24px;
+  line-height: 1.7;
+}
+
+.workbook .question-box > textarea {
+  min-height: 84px;
+  margin-top: 10px;
+}
+
 .workbook .question-box p {
   font-size: 16px;
   line-height: 1.85;
@@ -2490,6 +2551,51 @@ a {
 .workbook .activity-list {
   margin-top: 40px;
   gap: 18px;
+}
+
+.workbook .activity-section > .check-grid {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.workbook .activity-section > .check-grid > section {
+  grid-column: 1 / -1;
+}
+
+.workbook .sort-choice {
+  min-width: 0;
+  margin: 0;
+  padding: 22px 24px 24px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 253, 247, 0.78);
+}
+
+.workbook .sort-choice legend {
+  width: 100%;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 750;
+  line-height: 1.6;
+}
+
+.workbook .sort-choice legend span {
+  display: inline-block;
+  width: 36px;
+  color: var(--accent);
+  font-size: 10px;
+}
+
+.workbook .sort-choice label {
+  display: inline-flex;
+  align-items: center;
+  margin: 16px 24px 0 0;
+  line-height: 1.6;
+}
+
+.workbook .sort-choice input {
+  margin-right: 7px;
 }
 
 .workbook .activity-item {
@@ -3237,6 +3343,16 @@ a {
     padding: 68px 0;
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+
+  .workbook .content-section > .question-box,
+  .workbook .content-section > .check-grid,
+  .workbook .content-section > .activity-list,
+  .workbook .content-section > .scenario-list,
+  .workbook .content-section > .development-flow,
+  .workbook .content-section > .principle-pair {
+    grid-column: 1 / -1;
+    margin-top: 24px;
   }
 
   .editorial .section-body h2,
